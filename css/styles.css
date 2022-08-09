@@ -477,6 +477,9 @@ body {
 .social-list-icon {
   transition: fill var(--transition-duration-function);
 }
+.form-subscription{
+  display: flex;
+}
 .form-subscription-desc{
   font-weight: 700;
   font-size: 14px;
