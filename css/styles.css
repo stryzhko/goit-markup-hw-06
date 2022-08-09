@@ -452,14 +452,15 @@ body {
 .contact-wrapper {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
-/* .adress-wrapper {
+.adress-wrapper {
+  flex-grow: 1;
   margin-right: 70px;
 }
 .contact-social-wrapper{
   margin-right: 93px;
-} */
+}
 
 .contact-social-title {
   font-weight: 700;
@@ -497,7 +498,7 @@ body {
   background-color: var(--background-color-footer);
   padding-left: 16px;
   color: var(--color-logo-footer);
-  margin-right: 12px;
+
   transition: border-color var(--transition-duration-function);
 }
 .form-subscription-input:focus{
@@ -524,6 +525,7 @@ body {
   padding-bottom: 10px;
   padding-left: 28px;
   padding-right: 28px;
+  margin-left: 12px;
 
   transition: background-color var(--transition-duration-function);
 
@@ -659,6 +661,7 @@ transition: fill var(--transition-duration-function);
   fill: var(--accent-color-link);
 }
 .modal-form-message {
+  display: block;
   resize: none;
   width: 100%;
   height: 120px;
@@ -676,6 +679,7 @@ transition: fill var(--transition-duration-function);
 
 .modal-form-checkbox {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: 14px;
@@ -683,7 +687,6 @@ transition: fill var(--transition-duration-function);
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
-  padding-left: 12px;
   margin-bottom: 30px;
 }
 
